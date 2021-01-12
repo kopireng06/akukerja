@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hasii Cari</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick-theme.css"/>
+    <script src="jquery.min.js"></script>
+    <script type="text/javascript" src="slick.min.js"></script>
+</head>
+<body class="w-full overflow-x-hidden">
+    <div class="w-full relative z-10">
+        <div class="w-full h-16 bg-white shadow-2xl flex px-5">
+            <div class="self-center font-sans font-bold text-3xl text-green-500">AKU KERJA</div>
+        </div>
+        <div class="relative w-full pt-10 bg-cover bg-no-repeat bg-center">
+            <div class="absolute flex justify-center h-14 w-full center-x-absolute -bottom-7">
+                <div class="w-4/5 flex flex-wrap justify-center shadow-lg">
+                    <input type="text" placeholder="Cari Pekerjaan Favoritmu" class="relative outline-none p-4 h-14 flex-grow bg-white"></input>
+                    <div class="relative flex justify-center h-14 w-16 bg-green-500 border-4 border-white cursor-pointer">
+                        <img src="loupe.png" alt="" class="h-8 w-8 self-center">
+                    </div>
+                    <div class="h-10 px-5 w-full flex items-center bg-green-500">
+                        <div class="relative flex flex-col px-5">
+                            <div class="flex items-center">
+                                <div class="text-white">Kategori</div>
+                                <img src="angle-arrow-down.png" class="down-category-search h-4 w-4 ml-3 cursor-pointer" alt="">
+                            </div>
+                            <div class="absolute top-8 w-60 p-5 h-60 bg-white shadow-lg hidden z-50">HALO</div>
+                        </div>
+                        <div class="relative flex flex-col px-5">
+                            <div class="flex items-center">
+                                <div class="text-white">Kategori</div>
+                                <img src="angle-arrow-down.png" class="down-category-search h-4 w-4 ml-3 cursor-pointer" alt="">
+                            </div>
+                            <div class="absolute top-8 w-60 p-5 h-60 bg-white shadow-lg hidden">HALO</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="lg:container mx-auto mt-28">
+        <div class="m-3 font-medium">
+            Perusahaan top yang membuka lowongan
+        </div>
+        <div class="w-100 flex overflow-x-scroll">
+            <div class="card flex-shrink-0 shadow-lg py-5 mx-3 border-2 rounded-lg mb-4 w-96">
+                <div class="w-20 h-12 mx-5">
+                    <img src="tokopedia.jpg" alt="" class="object-contain">
+                </div>
+                <div class="p-2 px-5 bg-green-500 max-w-max font-bold text-white">
+                    Backend Engineer - NodeJS
+                </div>
+                <div class="mx-5 mt-3 font-serif">
+                    PT Tokopedia Indonesia
+                </div>
+                <div class="mx-5 mt-1 font-serif text-sm">
+                    Jakarta Pusat
+                </div>
+            </div>
+            <div class="card flex-shrink-0 shadow-lg py-5 mx-3 border-2 rounded-lg mb-4 w-96">
+                <div class="w-20 h-12 mx-5">
+                    <img src="tokopedia.jpg" alt="" class="object-contain">
+                </div>
+                <div class="p-2 px-5 bg-green-500 max-w-max font-bold text-white">
+                    Backend Engineer - NodeJS
+                </div>
+                <div class="mx-5 mt-3 font-serif">
+                    PT Tokopedia Indonesia
+                </div>
+                <div class="mx-5 mt-1 font-serif text-sm">
+                    Jakarta Pusat
+                </div>
+            </div>
+            <div class="card flex-shrink-0 shadow-lg py-5 mx-3 border-2 rounded-lg mb-4 w-96">
+                <div class="w-20 h-12 mx-5">
+                    <img src="tokopedia.jpg" alt="" class="object-contain">
+                </div>
+                <div class="p-2 px-5 bg-green-500 max-w-max font-bold text-white">
+                    Backend Engineer - NodeJS
+                </div>
+                <div class="mx-5 mt-3 font-serif">
+                    PT Tokopedia Indonesia
+                </div>
+                <div class="mx-5 mt-1 font-serif text-sm">
+                    Jakarta Pusat
+                </div>
+            </div>
+            <div class="card flex-shrink-0 shadow-lg py-5 mx-3 border-2 rounded-lg mb-4 w-96">
+                <div class="w-20 h-12 mx-5">
+                    <img src="tokopedia.jpg" alt="" class="object-contain">
+                </div>
+                <div class="p-2 px-5 bg-green-500 max-w-max font-bold text-white">
+                    Backend Engineer - NodeJS
+                </div>
+                <div class="mx-5 mt-3 font-serif">
+                    PT Tokopedia Indonesia
+                </div>
+                <div class="mx-5 mt-1 font-serif text-sm">
+                    Jakarta Pusat
+                </div>
+            </div>
+            <div class="card flex-shrink-0 shadow-lg py-5 mx-3 border-2 rounded-lg mb-4 w-96">
+                <div class="w-20 h-12 mx-5">
+                    <img src="tokopedia.jpg" alt="" class="object-contain">
+                </div>
+                <div class="p-2 px-5 bg-green-500 max-w-max font-bold text-white">
+                    Backend Engineer - NodeJS
+                </div>
+                <div class="mx-5 mt-3 font-serif">
+                    PT Tokopedia Indonesia
+                </div>
+                <div class="mx-5 mt-1 font-serif text-sm">
+                    Jakarta Pusat
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="lg:container mx-auto mt-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        <div class="m-3 col-span-1 md:col-span-2 lg:col-span-3 font-medium">
+            Menampilkan 30 dari 5638 lowongan
+        </div>
+        <div class="card col-span-1 shadow-lg py-5 mx-3 border-2 rounded-lg mb-4">
+            <div class="w-20 h-12 mx-5">
+                <img src="tokopedia.jpg" alt="" class="object-contain">
+            </div>
+            <div class="p-2 px-5 bg-green-500 max-w-max font-bold text-white">
+                Backend Engineer - NodeJS
+            </div>
+            <div class="mx-5 mt-3 font-serif">
+                PT Tokopedia Indonesia
+            </div>
+            <div class="mx-5 mt-1 font-serif text-sm">
+                Jakarta Pusat
+            </div>
+        </div>
+        <div class="card col-span-1 shadow-lg py-5 mx-3 border-2 rounded-lg mb-4">
+            <div class="w-20 h-12 mx-5">
+                <img src="tokopedia.jpg" alt="" class="object-contain">
+            </div>
+            <div class="p-2 px-5 bg-green-500 max-w-max font-bold text-white">
+                Backend Engineer - NodeJS
+            </div>
+            <div class="mx-5 mt-3 font-serif">
+                PT Tokopedia Indonesia
+            </div>
+            <div class="mx-5 mt-1 font-serif text-sm">
+                Jakarta Pusat
+            </div>
+        </div>
+        <div class="card col-span-1 shadow-lg py-5 mx-3 border-2 rounded-lg mb-4">
+            <div class="w-20 h-12 mx-5">
+                <img src="tokopedia.jpg" alt="" class="object-contain">
+            </div>
+            <div class="p-2 px-5 bg-green-500 max-w-max font-bold text-white">
+                Backend Engineer - NodeJS
+            </div>
+            <div class="mx-5 mt-3 font-serif">
+                PT Tokopedia Indonesia
+            </div>
+            <div class="mx-5 mt-1 font-serif text-sm">
+                Jakarta Pusat
+            </div>
+        </div>
+        <div class="card col-span-1 shadow-lg py-5 mx-3 border-2 rounded-lg mb-4">
+            <div class="w-20 h-12 mx-5">
+                <img src="tokopedia.jpg" alt="" class="object-contain">
+            </div>
+            <div class="p-2 px-5 bg-green-500 max-w-max font-bold text-white">
+                Backend Engineer - NodeJS
+            </div>
+            <div class="mx-5 mt-3 font-serif">
+                PT Tokopedia Indonesia
+            </div>
+            <div class="mx-5 mt-1 font-serif text-sm">
+                Jakarta Pusat
+            </div>
+        </div>
+        <div class="card col-span-1 shadow-lg py-5 mx-3 border-2 rounded-lg mb-4">
+            <div class="w-20 h-12 mx-5">
+                <img src="tokopedia.jpg" alt="" class="object-contain">
+            </div>
+            <div class="p-2 px-5 bg-green-500 max-w-max font-bold text-white">
+                Backend Engineer - NodeJS
+            </div>
+            <div class="mx-5 mt-3 font-serif">
+                PT Tokopedia Indonesia
+            </div>
+            <div class="mx-5 mt-1 font-serif text-sm">
+                Jakarta Pusat
+            </div>
+        </div>
+        <div class="card col-span-1 shadow-lg py-5 mx-3 border-2 rounded-lg mb-4">
+            <div class="w-20 h-12 mx-5">
+                <img src="tokopedia.jpg" alt="" class="object-contain">
+            </div>
+            <div class="p-2 px-5 bg-green-500 max-w-max font-bold text-white">
+                Backend Engineer - NodeJS
+            </div>
+            <div class="mx-5 mt-3 font-serif">
+                PT Tokopedia Indonesia
+            </div>
+            <div class="mx-5 mt-1 font-serif text-sm">
+                Jakarta Pusat
+            </div>
+        </div>
+        <div class="card col-span-1 shadow-lg py-5 mx-3 border-2 rounded-lg mb-4">
+            <div class="w-20 h-12 mx-5">
+                <img src="tokopedia.jpg" alt="" class="object-contain">
+            </div>
+            <div class="p-2 px-5 bg-green-500 max-w-max font-bold text-white">
+                Backend Engineer - NodeJS
+            </div>
+            <div class="mx-5 mt-3 font-serif">
+                PT Tokopedia Indonesia
+            </div>
+            <div class="mx-5 mt-1 font-serif text-sm">
+                Jakarta Pusat
+            </div>
+        </div>
+        <div class="card col-span-1 shadow-lg py-5 mx-3 border-2 rounded-lg mb-4">
+            <div class="w-20 h-12 mx-5">
+                <img src="tokopedia.jpg" alt="" class="object-contain">
+            </div>
+            <div class="p-2 px-5 bg-green-500 max-w-max font-bold text-white">
+                Backend Engineer - NodeJS
+            </div>
+            <div class="mx-5 mt-3 font-serif">
+                PT Tokopedia Indonesia
+            </div>
+            <div class="mx-5 mt-1 font-serif text-sm">
+                Jakarta Pusat
+            </div>
+        </div>
+        <div class="card col-span-1 shadow-lg py-5 mx-3 border-2 rounded-lg mb-4">
+            <div class="w-20 h-12 mx-5">
+                <img src="tokopedia.jpg" alt="" class="object-contain">
+            </div>
+            <div class="p-2 px-5 bg-green-500 max-w-max font-bold text-white">
+                Backend Engineer - NodeJS
+            </div>
+            <div class="mx-5 mt-3 font-serif">
+                PT Tokopedia Indonesia
+            </div>
+            <div class="mx-5 mt-1 font-serif text-sm">
+                Jakarta Pusat
+            </div>
+        </div>
+    </div>    
+</body>
+<script>
+    document.addEventListener('click', function(e) {
+        if ( e.target.matches('.down-category-search') ) {
+            if (e.target.parentNode.nextElementSibling.style.display == 'block'){
+                e.target.parentNode.nextElementSibling.style.display = 'none';
+            }
+            else{
+                x = document.getElementsByClassName("absolute top-8 w-60 p-5 h-60 bg-white shadow-lg hidden");
+                for (i = 0; i < x.length; i++) {
+                    console.log(x[i].style.display);
+                    if (x[i].style.display == "block"){
+                        x[i].style.display = "none";
+                    }
+                }   
+                e.target.parentNode.nextElementSibling.style.display = 'block';         
+            }
+        }
+    }, false);
+</script>
+</html>

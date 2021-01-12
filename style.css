@@ -1,0 +1,164 @@
+.p-25 {
+    padding: 25%;
+}
+.p-35 {
+    padding: 35%;
+}
+.p-50 {
+    padding: 50%;
+}
+.p-60 {
+    padding: 60%;
+}
+.p-75 {
+    padding: 75%;
+}
+.p-100 {
+    padding: 100%;
+}
+.pt-25 {
+    padding-top: 25%;
+}
+.pt-35 {
+    padding-top: 35%;
+}
+.pt-50 {
+    padding-top: 50%;
+}
+.pt-60 {
+    padding-top: 60%;
+}
+.pt-75 {
+    padding-top: 75%;
+}
+.pt-100 {
+    padding-top: 100%;
+}
+.z-1 {
+    z-index: -1;
+}
+.center-x-absolute {
+    left: 50%;
+    transform: translateX(-50%);
+}
+/* .slick-current {
+    margin-right: -20px;
+} */
+
+
+@media(min-width:640px){
+    .p-sm-25 {
+        padding: 25%;
+    }
+    .p-sm-35 {
+        padding: 35%;
+    }
+    .p-sm-50 {
+        padding: 50%;
+    }
+    .p-sm-60 {
+        padding: 60%;
+    }
+    .p-sm-75 {
+        padding: 75%;
+    }
+    .p-sm-100 {
+        padding: 100%;
+    }
+    .pt-sm-25 {
+        padding-top: 25%;
+    }
+    .pt-sm-35 {
+        padding-top: 35%;
+    }
+    .pt-sm-50 {
+        padding-top: 50%;
+    }
+    .pt-sm-60 {
+        padding-top: 60%;
+    }
+    .pt-sm-75 {
+        padding-top: 75%;
+    }
+    .pt-sm-100 {
+        padding-top: 100%;
+    }
+}
+
+@media(min-width:768px){
+    .p-md-25 {
+        padding: 25%;
+    }
+    .p-md-35 {
+        padding: 35%;
+    }
+    .p-md-50 {
+        padding: 50%;
+    }
+    .p-md-60 {
+        padding: 60%;
+    }
+    .p-md-75 {
+        padding: 75%;
+    }
+    .p-md-100 {
+        padding: 100%;
+    }
+    .pt-md-25 {
+        padding-top: 25%;
+    }
+    .pt-md-35 {
+        padding-top: 35%;
+    }
+    .pt-md-50 {
+        padding-top: 50%;
+    }
+    .pt-md-60 {
+        padding-top: 60%;
+    }
+    .pt-md-75 {
+        padding-top: 75%;
+    }
+    .pt-md-100 {
+        padding-top: 100%;
+    }
+}
+
+@media(min-width:1024px){
+    .p-lg-25 {
+        padding: 25%;
+    }
+    .p-lg-35 {
+        padding: 35%;
+    }
+    .p-lg-50 {
+        padding: 50%;
+    }
+    .p-lg-60 {
+        padding: 60%;
+    }
+    .p-lg-75 {
+        padding: 75%;
+    }
+    .p-lg-100 {
+        padding: 100%;
+    }
+    .pt-lg-25 {
+        padding-top: 25%;
+    }
+    .pt-lg-35 {
+        padding-top: 35%;
+    }
+    .pt-lg-50 {
+        padding-top: 50%;
+    }
+    .pt-lg-60 {
+        padding-top: 60%;
+    }
+    .pt-lg-75 {
+        padding-top: 75%;
+    }
+    .pt-lg-100 {
+        padding-top: 100%;
+    }
+}
