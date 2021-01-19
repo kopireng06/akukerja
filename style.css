@@ -41,6 +41,10 @@
     left: 50%;
     transform: translateX(-50%);
 }
+.center-y-absolute {
+    top: 50%;
+    transform: translateY(-50%);
+}
 /* .slick-current {
     margin-right: -20px;
 } */
